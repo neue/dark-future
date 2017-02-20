@@ -1,0 +1,233 @@
+background red
+stroke 66
+stroke white
+line 100
+line -100
+line 0, 100
+line 0, -100
+background black
+move -80 
+color white
+ellipse 60,40
+color black
+circle 10
+move 160
+color white
+ellipse 60, 40
+color black
+circle 10
+
+color yellow
+stroke black, 20
+circle 200
+move -80, -80
+color black
+circle 20
+move 160
+circle 20
+moveTo 250, 270
+arc 100, 1, 2
+color purple
+stroke black, 20
+circle 200
+move -80, -80
+color black
+circle 20
+move 160
+circle 20
+moveTo 250, 270
+arc 100, 1, 2
+color blue
+stroke 0
+circle 100
+move 0, 100
+polygon 15, 15, -15, 15
+move 0, 15
+stroke black, 5
+line 0, 200
+stroke black, 10
+move 0, -50
+line 0, 150
+line -80, 120
+line 80, 120
+move 0, 150
+line -80, 120
+line 80, 120
+moveTo 250, 100
+stroke 0
+polygon -60, 50, 0, 100, 60, 50
+
+color blue
+stroke 0
+circle 100
+move 0,100
+polygon 15, 15, -15, 15
+move 0, 15
+stroke black, 5
+line 0, 200
+stroke black, 10
+move 0, -50
+line 0, 150
+line -80, 120
+line 80, 120 
+move 0, 150 
+line -80, 120
+line 80, 120
+moveTo 250, 100
+stroke 0
+polygon -60, 50, 0, 100, 60, 50
+stroke black, 10
+move 0, -50
+line 0, 150
+line -80, 120
+line 80, 120
+move 0, 150
+line -80,120
+line 80, 120
+moveTo 250, 100
+stroke 0
+polygon -60, 50, 0, 100, 60, 50
+background blue
+
+color yellow
+circle 150
+background blue
+color yellow
+circle 150
+background red
+stroke 66
+stroke white
+line 100
+line -100
+line 0, 100
+line 0, -100
+background black
+move -80
+color white
+ellipse 60,40
+color black
+circle 10
+move 160
+color white
+ellipse 60, 40
+color black
+circle 10
+
+color yellow
+stroke black, 20 
+circle 200
+move -80, -80
+color black
+circle 20
+move 160
+circle 20
+moveTo 250, 270
+arc 100, 1, 2
+background black
+stroke 0
+moveTo 0, 250
+color green
+rectangle 500, 250
+moveTo 220
+color lightbrown
+rectangle 50, 400
+move 30, -120
+color darkgreen
+circle 200
+moveTo 150, 200
+color brown
+square 200
+moveTo 250, 400
+ellipse 100, 30
+moveTo 250, 200
+color darkred
+ellipse 115, 40
+moveTo 200, 160
+color orangered
+rectangle 15, 90
+moveTo 290, 160
+rectangle 15, 90
+moveTo 205, 320
+rectangle 90, 60
+moveTo 250, 320
+color lightbrown
+ellipse 48, 7
+moveTo 250, 330
+color brown
+circle 10
+
+
+color yellow
+stroke black , 20
+circle 200
+move -80, -80
+color black
+circle 20
+move 160
+circle 20
+moveTo 250, 270
+arc 100, 1, 2
+sword = aquamarine
+darksword = darken sword, 40
+background slategray
+color sword
+stroke darksword,20
+move -20,-180
+rectangle 40,230
+move 10,250
+stroke darkbrown
+color brown
+rectangle 20,100
+move -70,-10
+stroke darksword
+color lighten darksword,10
+rectangle 160,20
+move 80, -240
+color white
+stroke 0
+rectangle 10,230
+stroke 0
+background lightbrown
+color brown
+moveTo 0, 0
+rectangle 500, 150
+color lightbrown
+moveTo 100, 100
+rectangle 300, 50
+color white
+moveTo 100, 200
+square 50
+moveTo 350, 200
+square 50
+color purple
+moveTo 150, 200
+square 50
+moveTo 300, 200
+square 50
+color brown
+moveTo 200, 250
+rectangle 100, 50
+color saddlebrown
+moveTo 150, 300
+rectangle 200, 100
+color lightbrown
+moveTo 200, 300
+rectangle 100, 50
+stroke 0
+bold true
+for y in [ 0 .. 10 ]
+    moveTo 250, y * 50
+    text y 
+    moveTo 0, y * 50
+    color darken gold, y * 3
+    rectangle 500, 50
+color yellow
+stroke black, 20
+circle 200
+move -80, -80
+colour black
+circle 20
+move 160
+circle 20
+moveTo 250, 270
+arc  100, 1, 2

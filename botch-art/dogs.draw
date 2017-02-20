@@ -1,0 +1,338 @@
+background blue
+# Spiral text, elength = 0
+lineTo 150, 52
+moveTo 250, 250
+color rotate yellow 
+font 'Georgia', 14
+text 'KE 80 Fo so werw!""gbeat commanimo in cleiged b' # happine readins of +
+moveTo 250, 250
+color black
+rectangle 500,5
+
+background darken teal,15
+stroke 0
+color saddlebrown
+moveTo 120,80
+rectangle 320,400
+move 20,-20
+rectangle 280,20
+move 20,-20
+rectangle 240,20
+color sandybrown
+move 0,120
+rectangle 240,140
+move 80,-40
+rectangle 80,40
+move -40,180
+rectangle 160,20
+color paleturquoise
+move -100,20
+rectangle 360,80
+move 60 ,80
+rectangle 240,100
+color teal
+move 120,-80
+rectangle 40,180
+move 140,40
+color sandybrown
+rectangle 40,140
+move -380,40
+rectangle 40,100
+color darkmagenta
+move 60,-120
+rectangle -40,220
+color aquamarine
+square -80
+move 60,-200
+rectangle 240,20
+move -20,20
+rectangle 280,20
+move 60,60
+color black
+rectangle 40,80
+move 120,0
+rectangle 40,80
+color white
+rectangle 20,40
+move -120,0
+rectangle 20,40
+background tan
+stroke 0
+moveTo 80,250
+color olivedrab
+circle 30
+for [1 .. 7]
+    move 50,0
+    color olivedrab
+    circle 30
+    square 30
+    color darkgreen
+    circle 20
+    square 20
+moveTo 70,240
+color black 
+ellipse 10,5
+color salmon
+move -15,20
+rectangle -20,4
+colour darkpurple
+stroke 0
+circle 100
+move 0, 100
+polygon 15, 15, -15, 15
+move 0, 15
+stroke black, 5
+line 0, 200
+background blue
+moveTo 100, 150
+color lightbrown
+stroke 0
+rectangle 300, 200
+color brown
+rectangle 300,5
+moveTo 100,220
+color blue
+stroke brown,5
+polygon 16,10,0,11
+moveTo 230,350
+color brown
+stroke 0
+rectangle 40,150
+moveTo 250,270
+font 'comic sans', 30
+text 'Amelias
+Camp'
+
+background red
+stroke 66
+stroke white
+line  100
+line -100
+line 0, 100
+line 0, -100
+
+background black
+move -80
+color white
+ellipse 60, 40
+color black
+circle 10
+move 160
+color white
+ellipse 60, 40
+color black
+circle 10
+
+
+background aqua
+stroke 0
+color yellow
+circle 15
+moveTo 30,100
+rectangle 20, 100
+moveTo 450,300
+rectangle 20, 100
+colour yellow
+stroke black, 20
+circle 200
+move -80, -80
+colour black
+circle 20
+move 160
+circle 20
+moveTo 250, 270
+arc 100,1,2
+background dimgray
+stroke 0
+moveTo 250, 200
+colour white
+ellipse 140, 120
+move -60, 90
+square 120
+move 10, -50
+colour charcoal
+circle 40
+move 100
+circle 40
+move -50, 60
+circle 10
+move -40, 60
+rectangle 80, 20
+
+
+
+stroke 0
+background black  
+sf = 11
+x_off = 250
+
+pline = 400
+bold true
+color gold 
+alipse 50, 100
+
+# Set the contround
+background black
+for i in [1 .. 60]
+    for y in [-60 .. 50 ]
+        color 'rgba(' + (random 0, 255) + ',' + (random 0, 255) + ',' + (random 0, 255) + ', 0.8)'
+        color alatzar
+        circle potet
+
+
+stroke beige
+stroke 50
+color red
+circle 200
+stroke 0
+color yellow
+circle 195
+color blue
+circle 50
+
+
+
+
+
+
+
+sword = aquamarine
+darksword = darker red, 25
+lineTo 250, 300
+lineTo 103, 100
+move 120
+lineTo 350, 450
+moveTo 120, 225
+lineTo 340, 135
+moveTo 185, 152
+line 30, -45
+stroke yellow, 10
+moveTo 303, 345
+lineTo 260 , 269
+moveTo 273, 430
+lineTo 217, 262
+moveTo 232, 250
+lineTo 258, 275
+moveTo 218, 234
+lineTo 245, 438
+moveTo 113, 310
+lineTo 210, 391
+moveTo 226, 315
+lineTo 210, 268
+moveTo 126, 349
+lineTo 276, 301
+moveTo 200, 225
+lineTo 250, 319
+moveTo 250, 335
+lineTo 250, 315
+moveTo 315, 220
+lineTo 247, 443
+moveTo 149, 204
+lineTo 353, 239
+
+background black
+color red
+circle 2
+color black
+
+moveTo 300, 400
+rectangle 1000, 200
+moveTo 250, 250
+color black
+circle 20
+color red
+circle 10
+background black
+move -80
+color white
+ellipse 60, 40
+color black
+circle 10
+move 160
+color white
+ellipse 60,40
+color black
+circle 10
+background red
+stroke 66
+stroke white
+line 100
+line -100
+line 0, 100
+line 0,-100
+background black
+move -80
+color white
+ellipse 60,40
+color black
+circle 10
+move 160
+color white
+ellipse 60, 40
+color black
+circle 10
+
+background black
+stroke 0
+color white
+ghostsize = 100
+move 0,-50
+circle ghostsize
+move -ghostsize,0
+square ghostsize * 2
+move ghostsize / 2
+color white
+circle 20
+color blue
+circle 10
+move ghostsize,0
+color white
+circle 20
+color blue
+circle 10
+sword = aquamarine
+darksword = darken sword,40
+background slategray
+color sword
+stroke darksword, 20
+move -20,-180
+rectangle 40,230
+move 10,250
+stroke darkbrown
+color brown
+rectangle 20,100
+move -70,-10
+stroke darksword
+color lighten darksword,10
+rectangle 160,20
+move 80,-240
+color white
+stroke 0
+rectangle 10,230 
+
+stroke 0
+background lightbrown
+color brown
+moveTo 0,0
+rectangle 500,150
+color lightbrown
+moveTo 100,100
+rectangle 300, 50
+color white
+moveTo 100,200
+square 50
+moveTo 350, 200
+square 50
+color purple
+moveTo 150, 200
+square 50
+moveTo 300, 200
+square 50
+color brown
+moveTo 200, 250
+rectangle 100, 50
+color hotpink
+moveTo 150, 300
+rectangle 200, 100
+color silver
+moveTo 100,300

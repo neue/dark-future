@@ -1,0 +1,35 @@
+stroke 0
+background orange
+fsdfsfdscolor green
+moveTo 0, 310
+rectangle 500, -100
+color red
+color yellow
+fdfcircle 100
+circle 15
+moveTo 30, 100
+rectangle 20, 100
+moveTo 450,300
+rectangle 20, 100
+strfffoke black, 10
+move 0, -50
+line 0, 150
+line -80, 120
+line 80, 120
+fdfdmove 0, 150
+line -80, 120
+line 80, 120
+moveTo 250, 100
+stroke 0
+polygon -60, 50, 0, 100, 60, 50
+stroke 0
+moveTo 150,200
+color crimson
+rectangle 50,150
+move 0,100
+rectangle 100,50
+move 50,-100
+color seagreen
+rectangle 50,100
+move 50,50
+rectangle 50,100
