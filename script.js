@@ -49,7 +49,7 @@ function addCard(thought) {
   divDraggable.parent('#holder')
   divDraggable.attribute('thought', thought);
   var startHue = random(0,360);
-  divDragbox.style("background", "linear-gradient("+random(0,360)+"deg, hsla("+startHue+", 100%, 50%,1) 0%, hsla("+(startHue + 40)% 360+", 100%, 50%,1) 49%, hsla("+(startHue + 60)% 360+", 100%, 50%,1) 100%)");
+  divDragbox.style("background", "linear-gradient("+random(0,360)+"deg, hsla("+startHue+", 100%, 50%,1) 0%, hsla("+(startHue + 40)% 360+", 100%, 50%,0.5) 49%, hsla("+(startHue + 60)% 360+", 100%, 50%,0.5) 100%)");
 
   interact('.draggable')
   .draggable({
@@ -114,7 +114,7 @@ function addCard(thought) {
 }
 
 function newThought() {
-  httpGet("http://concrete.local:1337/?lastline="+codeLast,addCard);
+  httpGet("http://modern.local:1337/?lastline="+codeLast,addCard);
   
 }
 var shakeCounter = 0;
@@ -133,11 +133,10 @@ function deviceShaken() {
       console.log("Errors? Who cares?");
     }
     codeView.html("<pre>"+code+"</pre>");
+    codeView.elt.scrollTop = codeView.elt.scrollHeight;
   }
 }
 
-function keyPressed() {
-}
 
 function processThought(thought) {
   console.log(thought);
@@ -154,6 +153,7 @@ function processThought(thought) {
   var codeLines = code.split('\n');
   codeLast = codeLines.pop();
   codeView.html("<pre>"+code+"</pre>");
+  codeView.elt.scrollTop = codeView.elt.scrollHeight;  
 }
 
 function resetArt() {
